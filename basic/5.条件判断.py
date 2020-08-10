@@ -24,14 +24,14 @@ else:
 
 w = float(input('请输入你的体重（kg）：'))
 h = float(input('请输入你的身高（m）：'))
-bmi = w/(h**2)
+bmi = w / (h ** 2)
 if bmi >= 32:
-    print('BMI：%f，高于32：%s' % (bmi,'严重肥胖'))
+    print('BMI：%f，高于32：%s' % (bmi, '严重肥胖'))
 elif bmi >= 28:
-    print('BMI：%f，介于28-32之间：%s' % (bmi,'肥胖'))
+    print('BMI：%f，介于28-32之间：%s' % (bmi, '肥胖'))
 elif bmi >= 25:
-    print('BMI：%f，介于25-28之间：%s' % (bmi,'过重'))
+    print('BMI：%f，介于25-28之间：%s' % (bmi, '过重'))
 elif bmi >= 18.5:
-    print('BMI：%f，介于18.5-25之间：%s' % (bmi,'正常'))
-else :
-    print('BMI：%f，低于18.5：%s' % (bmi,'过轻'))
+    print('BMI：%f，介于18.5-25之间：%s' % (bmi, '正常'))
+else:
+    print('BMI：%f，低于18.5：%s' % (bmi, '过轻'))

@@ -5,8 +5,8 @@ print(d['Michael'])
 
 # 查询key是否存在
 print('Thomas' in d)
-d.get('Thomas') # 如果key不存在，可以返回None
-d.get('Thomas', -1) # 返回指定值
+d.get('Thomas')  # 如果key不存在，可以返回None
+d.get('Thomas', -1)  # 返回指定值
 
 # 删除指定key
 d.pop('Bob')

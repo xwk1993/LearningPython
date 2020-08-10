@@ -2,7 +2,7 @@
 sum = 0
 for x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
     sum = sum + x
-print('1-10的整数之和:',sum)
+print('1-10的整数之和:', sum)
 
 # range()函数，可以生成一个整数序列
 print(list(range(101)))
